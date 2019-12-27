@@ -1,0 +1,15 @@
+//Groovy Scripts for demo.model.Employees
+
+package demo.model
+
+import oracle.jbo.script.annotation.MessageParameterExpression;
+
+
+
+
+@MessageParameterExpression(validatorName="SalaryRange", name="ResExpressions_0")
+def SalaryRange_ResExpressions_0_MessageParameterValues()
+{
+adf.newValue
+}
+
